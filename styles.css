@@ -1,8 +1,14 @@
+@font-face {
+    font-family: ArialBlack;
+    src: url(ariblk.ttf);
+}
+
 body{
     display: flex;
     height: 100vh;
     flex-direction: column;
     margin: 0px;
+    font-family: "ArialBlack";
 }
 
 
@@ -10,7 +16,6 @@ body{
 /*Header and First Section*/
 a{
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:link {
@@ -50,6 +55,7 @@ h1{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 .car_logo{
@@ -97,16 +103,18 @@ h1{
     align-items: flex-start;
     justify-content: flex-start;
     gap: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 25px;
     flex:1;
 }
 
 .head_text{
     font-size: 18px;
     color: #E5E7EB;
-    font-family: Arial, Helvetica, sans-serif
+
     
 }
+
+/*##################...second_section...################*/
 
 .second_section{
     display: flex;
@@ -118,6 +126,7 @@ h1{
     justify-content: space-between;
     gap: 100px;
     padding: 0 350px;
+    padding-bottom: 70px;
     
 }
 
@@ -133,4 +142,23 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+/*################...Quote_Section...#############*/
+.quote_section{
+    display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 100px 450px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    
 }
