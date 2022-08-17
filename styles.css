@@ -5,6 +5,9 @@ body{
     margin: 0px;
 }
 
+
+
+/*Header and First Section*/
 a{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,9 +52,8 @@ h1{
     color: #F9FAF8;
 }
 
-#car_logo{
+.car_logo{
     height:100px;
-    color: white;
 }
 
 .titel_picture{
@@ -78,7 +80,7 @@ h1{
 .head{
     display:flex;
     flex-direction: column;
-    padding: 0 250px;
+    padding: 0 350px;
     background-color: #1F2937;
 }
 
@@ -99,9 +101,36 @@ h1{
     flex:1;
 }
 
-#head_text{
+.head_text{
     font-size: 18px;
     color: #E5E7EB;
     font-family: Arial, Helvetica, sans-serif
     
+}
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 0 350px;
+    
+}
+
+.section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.second_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
